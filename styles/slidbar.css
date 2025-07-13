@@ -1,0 +1,28 @@
+.slidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 70px;
+  width: 90px;
+  background-color: white;
+  z-index: 100;
+}
+.slidebar-link{
+  height: 91px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.slidebar-link:hover{
+  background-color: rgba(211,211,211,0.4);
+}
+.icon{
+  width: 30px;
+  margin-top: 12px;
+}
+.icon-text{
+  margin-top: 10px;
+  font-size: 12px;
+}
